@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SensBoost"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+    <Switch
+        android:id="@+id/toggleService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Sensitivity Boost"
+        android:layout_marginTop="32dp"/>
+    <SeekBar
+        android:id="@+id/sensitivitySlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:progress="10"
+        android:layout_marginTop="24dp"/>
+    <TextView
+        android:id="@+id/sensitivityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiplier: 1.0x"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.afnan.sensboost'
     compileSdk 34
     defaultConfig {
         applicationId "com.afnan.sensboost"
